@@ -47,10 +47,12 @@ border-style: solid;
 border-width: 20px;
 clear: both;
 overflow: auto;
+animation-name: fade;
+animation-duration: 1s;
 }
 
 .cescosite {
-height: 200px;
+height: 300px;
 }
 
 .elements {
@@ -91,4 +93,8 @@ margin-top: 10%;
 	width: 50%;
 	display: inline-block;
 	float: left;
+}
+
+.cescosite {
+height: 400px;
 }

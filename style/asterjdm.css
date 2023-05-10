@@ -121,6 +121,7 @@ body::after {
   margin-top: 15px;
   background: white;
   border-radius: 20px;
+  text-decoration: none;
   font-weight: 500;
   border: 2px solid white;
   transition: 0.2s;
@@ -135,24 +136,7 @@ body::after {
 
 }
 
-.container .card .content a {
-
-	text-decoration: none;
-
-}
-
-@media screen and (max-width: 800px) {
-
-	.container .card .content a:hover {
-
-		color: black;
-		background: white;
-
-	}
-
-} 
-
-/*Test*/
+/*Pop up style*/
 
 .popup-container {
    position: fixed;
@@ -230,5 +214,18 @@ body::after {
 
 	}
 }
+
+@media screen and (max-width: 800px) {
+
+	.container .card .content a:hover {
+
+		color: black;
+		background: white;
+
+	}
+
+} 
+
+
 
 

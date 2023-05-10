@@ -96,16 +96,7 @@ body::after {
 
   padding: 20px;
   text-align: center;
-  transform: translateY(100px);
-  opacity: 0;
   transition: 0.5s;
-
-}
-
-.container .card:hover .content {
-
-  transform: translateY(0px);
-  opacity: 1;
 
 }
 
@@ -135,32 +126,37 @@ body::after {
   font-weight: 300;
 }
 
-.container .card .content button {
+
+.container .card .content a {
 
   position: relative;
   display: inline-block;
-  padding: 8px 20px;
+  padding: 6px 18px;
   margin-top: 15px;
   background: white;
-  color: black;
   border-radius: 20px;
   text-decoration: none;
   font-weight: 500;
+  border: 2px solid white;
+  transition: 0.2s;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  color: black;
 }
 
-@media (max-width : 1000px) {
+.container .card .content a:hover {
 
-  .container .card .content {
+  background: transparent;
+  color: white;
 
-    transform: translateY(0px);
-    opacity: 1;
+}
+
+@media screen and (max-width: 800px) {
+
+  .container .card .content a:hover {
+
+    color: black;
+    background: white;
 
   }
 
-  h1 {
-
-    font-size: 30px;
-
-  }
-}
+} 
